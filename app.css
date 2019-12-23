@@ -4,3 +4,9 @@
     --ivory: #E2DED0;
     --blue-gray:#647C90;
 }
+html, body{
+    background-color: var(--ivory);
+    padding: 0%;
+    margin: 0%;
+}
+

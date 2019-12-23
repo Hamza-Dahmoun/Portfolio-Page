@@ -34,5 +34,10 @@ html, body{
 .project-tile{
     width:250px; height:340px; margin: 20px;
     border:1px solid var(--gray);  
-    cursor: pointer;       
+    cursor: pointer;      
+    transition-duration: 0.5s; 
+}
+.project-tile:hover{
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 15px var(--blue-gray);       
 }

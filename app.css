@@ -10,3 +10,11 @@ html, body{
     margin: 0%;
 }
 
+#welcome-section{
+    width:100%; margin-left: 0px; margin-right: 0px;
+    background-color: var(--cool-gray);
+    color: var(--ivory);
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}

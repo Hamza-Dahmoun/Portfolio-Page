@@ -25,3 +25,9 @@ html, body{
     font-size: 25px;
     letter-spacing: 4px;
 }
+
+#projects{
+    width:100%; margin-left: 0px; margin-right: 0px;    
+    background-color: var(--ivory);
+    display:flex; flex-direction: row; flex-wrap:wrap; justify-content: center;
+}

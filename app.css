@@ -33,7 +33,7 @@ html, body{
 }
 .project-tile{
     width:250px; height:340px; margin: 20px;
-    border:1px solid var(--gray);  
+    border:1px solid var(--blue-gray);  
     cursor: pointer;      
     transition-duration: 0.5s; 
 }

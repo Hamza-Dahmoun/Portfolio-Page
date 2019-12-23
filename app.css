@@ -28,6 +28,7 @@ html, body{
 
 #projects{
     width:100%; margin-left: 0px; margin-right: 0px;    
+    margin-top: 10%; margin-bottom: 10%;
     background-color: var(--ivory);
     display:flex; flex-direction: row; flex-wrap:wrap; justify-content: center;
 }

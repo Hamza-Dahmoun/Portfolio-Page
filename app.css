@@ -63,6 +63,7 @@ html, body{
     display:flex; flex-direction: row; flex-wrap: wrap; justify-content: center;    
 }
 #introduction #my-technologies div{
+    transition-duration: 0.5s;
     margin:20px;    
 }
 #introduction #my-technologies div i{
@@ -71,6 +72,10 @@ html, body{
 #introduction #my-technologies div p{
     font-size: 15px;
     margin:10px;
+}
+#introduction #my-technologies div:hover *{
+    transition-duration: 0.5s;
+    color: var(--blue-gray);   
 }
 
 #projects{

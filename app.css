@@ -198,3 +198,19 @@ html, body{
     width:100%; margin-left:auto; margin-right: auto;
     display:flex; flex-direction: row; justify-content: center; flex-wrap: wrap;
 }
+#contacts #social-media-profiles-links-container a{
+    margin:15px;
+    width:120px; height:120px; line-height:120px;
+    font-size:80px;
+    text-decoration: none;
+    border-radius: 50%;
+    border:2px solid var(--blue-gray);
+    background-color: var(--blue-gray);
+    color:#fff;
+    transition-duration: 0.5s;
+}
+#contacts #social-media-profiles-links-container a:hover{
+    color: var(--blue-gray);
+    background-color:#fff;
+    transition-duration: 0.5s;
+}

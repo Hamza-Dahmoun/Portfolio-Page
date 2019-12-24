@@ -162,3 +162,12 @@ html, body{
     font-size: 18px;
     transition-duration: 0.5s;
 }
+#navbar a:hover{
+    transition-duration: 0.5s;
+    background-color:#fff;
+    color: var(--cool-gray);
+}
+#navbar a:active{
+    background-color:#fff;
+    color: var(--cool-gray);
+}

@@ -51,6 +51,28 @@ html, body{
     color:crimson;
 }
 
+#introduction #my-technologies{
+    margin-top:5%;
+}
+#introduction #my-technologies h2{
+    width:100%;
+    letter-spacing: 3px;
+}
+#introduction #my-technologies{
+    color:#555;
+    display:flex; flex-direction: row; flex-wrap: wrap; justify-content: center;    
+}
+#introduction #my-technologies div{
+    margin:20px;    
+}
+#introduction #my-technologies div i{
+    font-size: 100px;
+}
+#introduction #my-technologies div p{
+    font-size: 15px;
+    margin:10px;
+}
+
 #projects{
     width:100%; margin-left: 0px; margin-right: 0px;    
     margin-top: 10%; margin-bottom: 10%;

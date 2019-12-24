@@ -171,3 +171,9 @@ html, body{
     background-color:#fff;
     color: var(--cool-gray);
 }
+
+#contacts{
+    width:100%; margin-left:auto; margin-right:auto;
+    margin-top:5%; margin-bottom:5%;
+    text-align:center;
+}

@@ -144,3 +144,12 @@ html, body{
     background-color: var(--blue-gray);
     transition-duration: 0.5s;
 }
+
+#navbar{
+    background-color: var(--cool-gray);
+    color:#fff;
+    display:flex; flex-direction: row; justify-content: end;
+    position: fixed;
+    width:100%;
+    box-shadow: 0px 5px 10px var(--blue-gray);
+}

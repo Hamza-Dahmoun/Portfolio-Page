@@ -27,6 +27,12 @@ html, body{
     letter-spacing: 6px;
 }
 
+#introduction{
+    width: 100%; margin-left:auto; margin-right: auto;
+    text-align:center;
+    margin-top:2%; margin-bottom:2%;
+}
+
 #projects{
     width:100%; margin-left: 0px; margin-right: 0px;    
     margin-top: 10%; margin-bottom: 10%;

@@ -130,11 +130,16 @@ html, body{
     display:flex; flex-direction:row; justify-content: center;
 }
 #projects #btn-container #load-more-btn{
-    height: 35px;
+    padding:10px;
     background-color: transparent;
     color: var(--blue-gray);
     border:none;
     font-size: 20px;
     cursor: pointer;
+    transition-duration: 0.5s;
+}
+#projects #btn-container #load-more-btn:hover{
+    color: var(--ivory);
+    background-color: var(--blue-gray);
     transition-duration: 0.5s;
 }

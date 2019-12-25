@@ -218,12 +218,11 @@ html, body{
 footer{
     text-align:center;
     width:100%;
-    margin-top:5%;
+    margin-top:15%;
     padding-top:1%;
     padding-bottom:1%;
-    background-color: var(--cool-gray);
-    color:#fff;
-    opacity:0.8;
+    color:var(--cool-gray);
+    border-top:3px solid var(--blue-gray);
 }
 footer p{
     font-size:18px;
@@ -234,5 +233,5 @@ footer p .fa-heart{
 }
 footer a{
     text-decoration:none;
-    color:#fff;
+    color:var(--cool-gray);
 }

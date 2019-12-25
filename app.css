@@ -221,11 +221,18 @@ footer{
     margin-top:5%;
     padding-top:1%;
     padding-bottom:1%;
+    background-color: var(--cool-gray);
+    color:#fff;
+    opacity:0.8;
 }
 footer p{
     font-size:18px;
+    opacity:1;
 }
-
+footer p .fa-heart{
+    color:crimson;
+}
 footer a{
     text-decoration:none;
+    color:#fff;
 }

@@ -2,10 +2,11 @@
     --gray: #746c70;
     --cool-gray: #4E4F50;
     --ivory: #E2DED0;
+    --white:#fff;
     --blue-gray:#647C90;
 }
 html, body{
-    background-color: var(--ivory);
+    background-color: var(--white);
     padding: 0%;
     margin: 0%;
 }
@@ -83,7 +84,7 @@ html, body{
 #projects{
     width:100%; margin-left: 0px; margin-right: 0px;    
     margin-top: 10%; margin-bottom: 10%;
-    background-color: var(--ivory);
+    background-color: var(--white);
     display:flex; flex-direction: row; flex-wrap:wrap; justify-content: center;
 }
 #projects h2{

@@ -214,3 +214,11 @@ html, body{
     background-color:#fff;
     transition-duration: 0.5s;
 }
+
+footer{
+    text-align:center;
+    width:100%;
+    margin-top:5%;
+    padding-top:1%;
+    padding-bottom:1%;
+}

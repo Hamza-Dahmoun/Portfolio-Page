@@ -151,8 +151,8 @@ html, body{
     margin:0%;
 }
 .project-tile .technologies-in-project{
-    width:100%; margin:0px; text-align:center;
-    height:10%; margin-top:0%; margin-bottom:0%;
+    width:100%; text-align:center;
+    height:50px; line-height:50px;
     color: #555;
     font-size:18px;padding-top: 3px; padding-bottom:3px;
 }

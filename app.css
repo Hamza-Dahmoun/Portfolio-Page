@@ -151,9 +151,17 @@ html, body{
     margin:0%;
 }
 .project-tile .technologies-in-project{
-    width:100%;
+    width:99%;margin-left:auto; margin-right:auto;
     color: #555;
     display:flex; flex-direction: row; flex-wrap:wrap;justify-content:space-between;
+}
+.project-tile .technologies-in-project p{
+    font-size:15px;
+    align-self: center;/*center p tags vertically inside .technologies-in-project*/
+}
+.project-tile .technologies-in-project .project-type{
+    font-size:12px;
+    align-self: center;
 }
 
 #projects #btn-container{

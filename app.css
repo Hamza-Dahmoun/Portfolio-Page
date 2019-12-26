@@ -151,10 +151,9 @@ html, body{
     margin:0%;
 }
 .project-tile .technologies-in-project{
-    width:100%; text-align:center;
-    height:50px; line-height:50px;
+    width:100%;
     color: #555;
-    font-size:18px;padding-top: 3px; padding-bottom:3px;
+    display:flex; flex-direction: row; flex-wrap:wrap;justify-content:space-between;
 }
 
 #projects #btn-container{

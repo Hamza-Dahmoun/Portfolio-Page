@@ -4,7 +4,7 @@
     --ivory: #E2DED0;
     --white:#fff;
     --blue-gray:#647C90;
-    --my-font: 'Nanum Myeongjo', serif;
+    --my-font:'Noto Serif', serif;
 }
 html, body{
     background-color: var(--white);

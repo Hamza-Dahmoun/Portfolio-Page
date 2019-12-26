@@ -210,6 +210,23 @@ html, body{
     background-color:var(--white);
     color: var(--cool-gray);
 }
+#navbar i{
+    display:none;
+}
+@media screen and (max-width: 600px){
+    #navbar a{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 350px){
+    #navbar a{
+        display:none;
+    }
+    #navbar i{
+        display:block;float:right;cursor:pointer;font-size:25px;
+        margin:12px;
+    }   
+}
 
 
 #contacts{

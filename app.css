@@ -49,35 +49,40 @@ html, body{
     word-spacing: 4px;
     letter-spacing: 1px;
 }
-/*
+
 #welcome-section #introduction .fa{
     font-size:17px;
 }
 #welcome-section #introduction .fa-heart{
     color:crimson;
-}*/
+}
 
 
 #my-technologies{
     color:#555;
     display:flex; flex-direction: row; flex-wrap: wrap; justify-content: center;    
     text-align:center;
-    margin-top:5%;
+    margin-top:10%;
+    margin-bottom:10%;
 }
 #my-technologies h2{
     width:100%;
     letter-spacing: 3px;
+    font-size:36px;
+    margin-top:5%; margin-bottom:5%;
 }
 #my-technologies div{
-    transition-duration: 0.5s;
     margin:20px;    
 }
 #my-technologies div i{
-    font-size: 100px;
+    font-size: 115px;
 }
 #my-technologies div p{
-    font-size: 15px;
+    font-size: 23px;
     margin:10px;
+}
+#my-technologies div *{
+    transition-duration: 0.5s; 
 }
 #my-technologies div:hover *{
     transition-duration: 0.5s;

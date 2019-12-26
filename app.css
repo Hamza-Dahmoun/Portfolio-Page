@@ -130,10 +130,11 @@ html, body{
     transition-duration: 0.5s; 
     margin: 3%;
     text-decoration: none;
+    border:1px solid #efefef;
 }
 .project-tile:hover{
     transition-duration: 0.5s;
-    box-shadow: 0px 0px 15px var(--blue-gray);       
+    box-shadow: 0px 0px 10px var(--cool-gray);       
 }
 .project-tile .project-name{
     width:100%; margin:auto; text-align:center;
@@ -145,6 +146,8 @@ html, body{
 .project-tile .project-picture{
     width:100%; max-height:80%;min-height:80%;height:80%;
     margin: 0%; padding: 0%;
+    border-bottom:1px solid #efefef;
+    border-top:1px solid #efefef;
 }
 .project-tile .project-picture img{
     width:100%; height: 100%; max-height:100%;min-height:100%;

@@ -4,11 +4,13 @@
     --ivory: #E2DED0;
     --white:#fff;
     --blue-gray:#647C90;
+    --my-font: 'Nanum Myeongjo', serif;
 }
 html, body{
     background-color: var(--white);
     padding: 0%;
     margin: 0%;
+    font-family:var(--my-font);
 }
 
 #welcome-section{
@@ -47,12 +49,13 @@ html, body{
     word-spacing: 4px;
     letter-spacing: 1px;
 }
+/*
 #welcome-section #introduction .fa{
     font-size:17px;
 }
 #welcome-section #introduction .fa-heart{
     color:crimson;
-}
+}*/
 
 
 #my-technologies{

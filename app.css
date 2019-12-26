@@ -56,6 +56,26 @@ html, body{
 #welcome-section #introduction .fa-heart{
     color:crimson;
 }
+#welcome-section #first-social-media-profiles-links-container{
+    width:100%; margin-left:auto; margin-right: auto;
+    display:flex; flex-direction: row; justify-content: center; flex-wrap: wrap;
+}
+#welcome-section #first-social-media-profiles-links-container a{
+    margin:15px;
+    width:80px; height:80px; line-height:80px;
+    font-size:55px;
+    text-decoration: none;
+    border-radius: 50%;
+    border:2px solid #fff;
+    background-color: var(--blue-gray);
+    color:#fff;
+    transition-duration: 0.5s;
+}
+#welcome-section #first-social-media-profiles-links-container a:hover{
+    color: var(--blue-gray);
+    background-color:#fff;
+    transition-duration: 0.5s;
+}
 
 
 #my-technologies{

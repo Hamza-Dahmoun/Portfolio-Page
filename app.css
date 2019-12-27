@@ -52,6 +52,24 @@ html, body {
     margin-top: 2%;
     border: 2px solid var(--white);
 }
+@media screen and (max-width: 600px){
+    #welcome-section #introduction img {
+        height: 165px;
+        width: 165px;
+    }
+}
+@media screen and (max-width: 400px){
+    #welcome-section #introduction img {
+        height: 150px;
+        width: 150px;
+    }
+}
+@media screen and (max-width: 250px){
+    #welcome-section #introduction img {
+        height: 130px;
+        width: 130px;
+    }
+}
 
 #welcome-section #introduction p {
     text-align: center;

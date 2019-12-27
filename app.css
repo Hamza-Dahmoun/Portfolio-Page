@@ -152,7 +152,7 @@ html, body {
     flex-wrap: wrap;
 }
 #welcome-section #first-social-media-profiles-links-container a {
-    margin: 15px;
+    margin-left: 10px;margin-right: 10px;
     width: 80px;
     height: 80px;
     line-height: 80px;
@@ -168,6 +168,30 @@ html, body {
     color: var(--cool-gray);
     background-color: var(--white);
     transition-duration: 0.5s;
+}
+@media screen and (max-width: 600px){
+    #welcome-section #first-social-media-profiles-links-container a {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 49px;
+    }
+}
+@media screen and (max-width: 400px){
+    #welcome-section #first-social-media-profiles-links-container a {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 42px;
+    }
+}
+@media screen and (max-width: 300px){
+    #welcome-section #first-social-media-profiles-links-container a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 37px;
+    }
 }
 
 

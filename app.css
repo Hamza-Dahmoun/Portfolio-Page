@@ -11,6 +11,8 @@ html, body {
     font-family: var(--my-font);
 }
 
+
+
 #welcome-section {
     width: 100%;
     margin-left: 0px;
@@ -98,6 +100,22 @@ html, body {
     background-color: var(--white);
     transition-duration: 0.5s;
 }
+@media screen and (max-width: 600px){    
+    #welcome-section h1 {
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+    
+    #welcome-section p {
+        font-size: 25px;
+        letter-spacing: 6px;
+    }
+}
+
+
+
+
+
 
 #my-technologies {
     color: #555;
@@ -276,40 +294,24 @@ html, body {
 }
 
 #navbar .menu-buttons-container {
-    /*this is default css for navbar links: displayed in big screens - not displayed in small screens*/
+    /*this is default css for navbar links: displayed in big screens - not displayed in small screens*/    
     display: flex;
-    flex-direction: row;
-    justify-content: end;
     background-color: var(--cool-gray);
     color: var(--white);
-    position: absolute;
-    top: -1000%;
-    transition-duration: 2s;
 }
 #navbar .menu-buttons-container-shown {
     /*this is css of navbar links in small screens when user click on burger bar icon to display the menu then if user increase screen width
     it will stay displayed*/
     display: flex;
-    flex-direction: row;
-    justify-content: end;
     background-color: var(--cool-gray);
     color: var(--white);
-    position: absolute;
-    top: -1000%;
-    transition-duration: 2s;
 }
 
 #navbar .menu-buttons-container-hidden {
     /*this is css for navbar links: not displayed in small screens (when user click second time on burger bar icon to hide menu) - but displayed on large screens if user increase width of screen*/
     display: flex;
-    flex-direction: row;
-    justify-content: end;
     background-color: var(--cool-gray);
-    color: var(--white);
-    position: absolute;
-    top: -1000%;
-    transition-duration: 2s;
-    
+    color: var(--white);    
 }
 
 #navbar .aclass {
@@ -338,14 +340,18 @@ html, body {
     display: none;
 }
 
-
+@media screen and (max-width: 800px) {
+    #navbar .aclass {
+        font-size: 16px;
+    }
+}
 @media screen and (max-width: 600px) {
     #navbar .aclass {
         font-size: 14px;
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
     #navbar .menu-buttons-container {
         display: none;
     }

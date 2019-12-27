@@ -53,6 +53,9 @@ html, body {
     border: 2px solid var(--white);
 }
 @media screen and (max-width: 600px){
+    #welcome-section{
+        padding-top:50px;;
+    }
     #welcome-section #introduction img {
         height: 165px;
         width: 165px;

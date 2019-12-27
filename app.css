@@ -254,13 +254,26 @@ html, body {
     transition-duration: 0.5s;
     color: var(--cool-gray);
 }
-
+@media screen and (max-width: 900px){
+    #my-technologies div i {
+        font-size: 100px;
+    }    
+    #my-technologies div p {
+        font-size: 20px;
+    }
+}
 @media screen and (max-width: 600px) {
     #my-technologies h2 {
         letter-spacing: 3px;
         font-size: 30px;
         margin-left: 4%;
         margin-right: 4%;
+    }    
+    #my-technologies div i {
+        font-size: 85px;
+    }    
+    #my-technologies div p {
+        font-size: 18px;
     }
 }
 
@@ -269,12 +282,34 @@ html, body {
         letter-spacing: 3px;
         font-size: 27px;
     }
+    #my-technologies div i {
+        font-size: 70px;
+    }    
+    #my-technologies div p {
+        font-size: 15px;
+        margin: 5px;
+    }
 }
 
 @media screen and (max-width: 300px) {
     #my-technologies h2 {
         letter-spacing: 3px;
         font-size: 22px;
+    }
+    #my-technologies div i {
+        font-size: 55px;
+    }    
+    #my-technologies div p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 300px){
+    #my-technologies div i {
+        font-size: 50px;
+    }    
+    #my-technologies div p {
+        font-size: 10px;
+        margin: 5px;
     }
 }
 

@@ -1,294 +1,462 @@
-:root{
+:root {
     --cool-gray: #4E4F50;
-    --white:#fff;
-    --my-font:'Noto Serif', serif;
+    --white: #fff;
+    --my-font: 'Noto Serif', serif;
 }
-html, body{
+
+html, body {
     background-color: var(--white);
     padding: 0%;
     margin: 0%;
-    font-family:var(--my-font);
+    font-family: var(--my-font);
 }
 
-#welcome-section{
-    width:100%; margin-left: 0px; margin-right: 0px;
-    height:100vh;
+#welcome-section {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 100vh;
     background-color: var(--cool-gray);
     color: white;
     text-align: center;
     padding-top: 4%;
     padding-bottom: 4%;
 }
-#welcome-section h1{
+
+#welcome-section h1 {
     font-size: 40px;
     letter-spacing: 3px;
 }
-#welcome-section p{
+
+#welcome-section p {
     font-size: 25px;
     letter-spacing: 6px;
 }
 
-#welcome-section #introduction{
-    width: 100%; margin-left:auto; margin-right: auto;
-    text-align:center;
-    margin-top:2%; margin-bottom:2%;
+#welcome-section #introduction {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
-#welcome-section #introduction img{
-    height: 180px; width:180px; border-radius: 50%;
-    margin-bottom:2%; margin-top: 2%;
-    border:2px solid var(--white);
+
+#welcome-section #introduction img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border: 2px solid var(--white);
 }
-#welcome-section #introduction p{
-    text-align:center;
-    margin-bottom:2%; margin-top: 2%;
+
+#welcome-section #introduction p {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
     font-size: 20px;
     color: var(--white);
     word-spacing: 4px;
     letter-spacing: 1px;
 }
 
-#welcome-section #introduction .fa{
-    font-size:17px;
+#welcome-section #introduction .fa {
+    font-size: 17px;
 }
-#welcome-section #introduction .fa-heart{
-    color:crimson;
+
+#welcome-section #introduction .fa-heart {
+    color: crimson;
 }
-#welcome-section #first-social-media-profiles-links-container{
-    width:100%; margin-left:auto; margin-right: auto;
-    display:flex; flex-direction: row; justify-content: center; flex-wrap: wrap;
+
+#welcome-section #first-social-media-profiles-links-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-#welcome-section #first-social-media-profiles-links-container a{
-    margin:15px;
-    width:80px; height:80px; line-height:80px;
-    font-size:55px;
+
+#welcome-section #first-social-media-profiles-links-container a {
+    margin: 15px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 55px;
     text-decoration: none;
     border-radius: 50%;
-    border:2px solid var(--white);
+    border: 2px solid var(--white);
     background-color: var(--cool-gray);
-    color:var(--white);
+    color: var(--white);
     transition-duration: 0.5s;
 }
-#welcome-section #first-social-media-profiles-links-container a:hover{
+
+#welcome-section #first-social-media-profiles-links-container a:hover {
     color: var(--cool-gray);
-    background-color:var(--white);
+    background-color: var(--white);
     transition-duration: 0.5s;
 }
 
+#my-technologies {
+    color: #555;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 
-#my-technologies{
-    color:#555;
-    display:flex; flex-direction: row; flex-wrap: wrap; justify-content: center;    
-    text-align:center;
-    margin-top:10%;
-    margin-bottom:10%;
-}
-#my-technologies h2{
-    width:100%;
+#my-technologies h2 {
+    width: 100%;
     letter-spacing: 3px;
-    font-size:36px;
-    margin-top:5%; margin-bottom:5%;
+    font-size: 36px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-#my-technologies div{
-    margin:20px;    
+
+#my-technologies div {
+    margin: 20px;
 }
-#my-technologies div i{
+
+#my-technologies div i {
     font-size: 115px;
 }
-#my-technologies div p{
+
+#my-technologies div p {
     font-size: 23px;
-    margin:10px;
-}
-#my-technologies div *{
-    transition-duration: 0.5s; 
-}
-#my-technologies div:hover *{
-    transition-duration: 0.5s;
-    color: var(--cool-gray);   
+    margin: 10px;
 }
 
-#projects{
-    width:100%; margin-left: 0px; margin-right: 0px;    
-    margin-top: 10%; margin-bottom: 10%;
-    background-color: var(--white);
-    display:flex; flex-direction: row; flex-wrap:wrap; justify-content: center;
+#my-technologies div * {
+    transition-duration: 0.5s;
 }
-#projects h2{
-    width: 100%; margin-left: 0px; margin-right:0px;
+
+#my-technologies div:hover * {
+    transition-duration: 0.5s;
+    color: var(--cool-gray);
+}
+
+#projects {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#projects h2 {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
     text-align: center;
     background-color: var(--cool-gray);
     color: white;
-    padding-top: 4%; padding-bottom: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
     letter-spacing: 3px;
-    font-size:36px;
+    font-size: 36px;
 }
-.project-tile{
-    width:320px; max-height:480px;min-height:340px; margin: 20px;
-    cursor: pointer;      
-    transition-duration: 0.5s; 
+
+.project-tile {
+    width: 320px;
+    max-height: 480px;
+    min-height: 340px;
+    margin: 20px;
+    cursor: pointer;
+    transition-duration: 0.5s;
     margin: 3%;
     text-decoration: none;
-    border:1px solid #efefef;
+    border: 1px solid #efefef;
 }
-.project-tile:hover{
+
+.project-tile:hover {
     transition-duration: 0.5s;
-    box-shadow: 0px 0px 10px var(--cool-gray);       
+    box-shadow: 0px 0px 10px var(--cool-gray);
 }
-.project-tile .project-name{
-    width:100%; margin:auto; text-align:center;
-    height:50px/*10%*/; line-height:50px;;   
+
+.project-tile .project-name {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: 50px/*10%*/
+    ;
+    line-height: 50px;
+    ;
     color: #555;
-    font-size:22px;
-    letter-spacing:3px;
+    font-size: 22px;
+    letter-spacing: 3px;
 }
-.project-tile .project-picture{
-    width:100%; max-height:80%;min-height:80%;height:80%;
-    margin: 0%; padding: 0%;
-    border-bottom:1px solid #efefef;
-    border-top:1px solid #efefef;
+
+.project-tile .project-picture {
+    width: 100%;
+    max-height: 80%;
+    min-height: 80%;
+    height: 80%;
+    margin: 0%;
+    padding: 0%;
+    border-bottom: 1px solid #efefef;
+    border-top: 1px solid #efefef;
 }
-.project-tile .project-picture img{
-    width:100%; height: 100%; max-height:100%;min-height:100%;
-    margin:0%;
+
+.project-tile .project-picture img {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    margin: 0%;
 }
-.project-tile .technologies-in-project{
-    width:99%;margin-left:auto; margin-right:auto;
+
+.project-tile .technologies-in-project {
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
     color: #555;
-    display:flex; flex-direction: row; flex-wrap:wrap;justify-content:space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.project-tile .technologies-in-project p{
-    font-size:15px;
-    align-self: center;/*center p tags vertically inside .technologies-in-project*/
+
+.project-tile .technologies-in-project p {
+    font-size: 15px;
+    align-self: center;
+    /*center p tags vertically inside .technologies-in-project*/
 }
-.project-tile .technologies-in-project .project-type{
-    font-size:12px;
+
+.project-tile .technologies-in-project .project-type {
+    font-size: 12px;
     align-self: center;
 }
 
-#projects #btn-container{
-    margin-left:auto; margin-right:auto; width:100%;
-    margin-top:5%; margin-bottom:5%;
-    display:flex; flex-direction:row; justify-content: center;
+#projects #btn-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-#projects #btn-container #load-more-btn{
-    padding:10px;
+
+#projects #btn-container #load-more-btn {
+    padding: 10px;
     color: var(--white);
     background-color: var(--cool-gray);
-    border:1px solid var(--cool-gray);
+    border: 1px solid var(--cool-gray);
     font-size: 20px;
     cursor: pointer;
     transition-duration: 0.5s;
 }
-#projects #btn-container #load-more-btn:hover{
+
+#projects #btn-container #load-more-btn:hover {
     background-color: var(--white);
     color: var(--cool-gray);
     transition-duration: 0.5s;
 }
 
-#navbar{
+#navbar {
     background-color: var(--cool-gray);
-    color:var(--white);
-    display:flex; flex-direction: row; justify-content: end;
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
     position: fixed;
-    width:100%;
+    width: 100%;
     box-shadow: 0px 5px 10px var(--cool-gray);
 }
-#navbar a{
-    color:var(--white);
+
+#navbar .menu-buttons-container {
+    /*this is default css for navbar links: displayed in big screens - not displayed in small screens*/
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: var(--cool-gray);
+    color: var(--white);
+    position: absolute;
+    top: -1000%;
+    transition-duration: 2s;
+}
+#navbar .menu-buttons-container-shown {
+    /*this is css of navbar links in small screens when user click on burger bar icon to display the menu then if user increase screen width
+    it will stay displayed*/
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: var(--cool-gray);
+    color: var(--white);
+    position: absolute;
+    top: -1000%;
+    transition-duration: 2s;
+}
+
+#navbar .menu-buttons-container-hidden {
+    /*this is css for navbar links: not displayed in small screens (when user click second time on burger bar icon to hide menu) - but displayed on large screens if user increase width of screen*/
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: var(--cool-gray);
+    color: var(--white);
+    position: absolute;
+    top: -1000%;
+    transition-duration: 2s;
+    
+}
+
+#navbar .aclass {
+    color: var(--white);
     text-decoration: none;
-    height:50px;
-    line-height:50px;
-    padding-left:10px; padding-right:10px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 18px;
     transition-duration: 0.5s;
 }
-#navbar a:hover{
+
+#navbar a:hover {
     transition-duration: 0.5s;
-    background-color:var(--white);
+    background-color: var(--white);
     color: var(--cool-gray);
 }
-#navbar a:active{
-    background-color:var(--white);
+
+#navbar a:active {
+    background-color: var(--white);
     color: var(--cool-gray);
 }
-#navbar i{
-    display:none;
+
+#navbar i {
+    display: none;
 }
-@media screen and (max-width: 600px){
-    #navbar a{
+
+
+@media screen and (max-width: 600px) {
+    #navbar .aclass {
         font-size: 14px;
     }
 }
-@media screen and (max-width: 350px){
-    #navbar a{
-        display:none;
+
+@media screen and (max-width: 350px) {
+    #navbar .menu-buttons-container {
+        display: none;
     }
-    #navbar i{
-        display:block;float:right;cursor:pointer;font-size:25px;
-        margin:12px;
-    }   
+    #navbar .menu-buttons-container-shown {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        background-color: var(--cool-gray);
+        color: var(--white);
+        position: absolute;
+           
+        width:100%;
+        transition-duration:1.5s;
+        top:0%;
+        z-index:2;
+    }
+    #navbar .menu-buttons-container-hidden {
+        display: none;
+        top:-1000%;
+    }
+    #navbar i {
+        display: block;
+        cursor: pointer;
+        font-size: 25px;
+        margin: 12px;
+        z-index: 10;
+    }
 }
 
-
-#contacts{
-    width:100%; margin-left:auto; margin-right:auto;
-    margin-top:5%; margin-bottom:5%;
-    text-align:center;
+#contacts {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
 }
-#contacts h2{
-    width:100%; margin-left:auto; margin-right:auto;
+
+#contacts h2 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--cool-gray);
     color: white;
-    padding-top: 4%; padding-bottom: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
     letter-spacing: 3px;
-    text-align:center;
-    font-size:36px;
+    text-align: center;
+    font-size: 36px;
 }
-#contacts p{
-    font-size:20px;
-    color:var(--cool-gray);
+
+#contacts p {
+    font-size: 20px;
+    color: var(--cool-gray);
     letter-spacing: 2px;
 }
-#contacts p strong{
-    color:#555;
+
+#contacts p strong {
+    color: #555;
 }
-#contacts #social-media-profiles-links-container{
-    width:100%; margin-left:auto; margin-right: auto;
-    display:flex; flex-direction: row; justify-content: center; flex-wrap: wrap;
+
+#contacts #social-media-profiles-links-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-#contacts #social-media-profiles-links-container a{
-    margin:15px;
-    width:120px; height:120px; line-height:120px;
-    font-size:80px;
+
+#contacts #social-media-profiles-links-container a {
+    margin: 15px;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    font-size: 80px;
     text-decoration: none;
     border-radius: 50%;
-    border:2px solid var(--cool-gray);
+    border: 2px solid var(--cool-gray);
     background-color: var(--cool-gray);
-    color:var(--white);
-    transition-duration: 0.5s;
-}
-#contacts #social-media-profiles-links-container a:hover{
-    color: var(--cool-gray);
-    background-color:var(--white);
+    color: var(--white);
     transition-duration: 0.5s;
 }
 
-footer{
-    text-align:center;
-    width:100%;
-    margin-top:15%;
-    padding-top:1%;
-    padding-bottom:1%;    
+#contacts #social-media-profiles-links-container a:hover {
+    color: var(--cool-gray);
+    background-color: var(--white);
+    transition-duration: 0.5s;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    margin-top: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color: var(--cool-gray);
-    color:var(--white);
+    color: var(--white);
 }
-footer p{
-    font-size:18px;
-    opacity:1;
+
+footer p {
+    font-size: 18px;
+    opacity: 1;
 }
-footer p .fa-heart{
-    color:crimson;
+
+footer p .fa-heart {
+    color: crimson;
 }
-footer a{
-    text-decoration:none;
-    color:var(--white);
+
+footer a {
+    text-decoration: none;
+    color: var(--white);
 }

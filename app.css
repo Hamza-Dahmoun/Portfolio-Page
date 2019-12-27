@@ -80,6 +80,29 @@ html, body {
     word-spacing: 4px;
     letter-spacing: 1px;
 }
+@media screen and (max-width: 850px){
+    #welcome-section #introduction p {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 650px){
+    #welcome-section #introduction p {
+        font-size: 16px;
+        word-spacing: 3px;
+    }
+}
+@media screen and (max-width: 450px){
+    #welcome-section #introduction p {
+        font-size: 15px;
+        word-spacing: 3px;
+    }
+}
+@media screen and (max-width: 300px){
+    #welcome-section #introduction p {
+        font-size: 13px;
+        word-spacing: 3px;
+    }
+}
 
 #welcome-section #introduction .fa {
     font-size: 17px;

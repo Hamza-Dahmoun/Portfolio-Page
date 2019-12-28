@@ -573,20 +573,35 @@ html, body {
     #contacts h2{
         font-size: 30px;
     }
+    #contacts p{
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 400px){
     #contacts h2{
         font-size: 27px;
+    }
+    #contacts p{
+        font-size: 16px;
     }
 }
 @media screen and (max-width: 300px){
     #contacts h2{
         font-size: 22px;
     }
+    #contacts p{
+        font-size: 14px; 
+    }
+    #contacts p strong{
+        word-break:break-all;
+    }
 }
 @media screen and (max-width: 200px){
     #contacts h2{
         font-size: 20px;
+    }
+    #contacts p{
+        font-size: 12px;
     }
 }
 #contacts p strong {

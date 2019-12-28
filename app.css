@@ -623,3 +623,29 @@ footer a {
     text-decoration: none;
     color: var(--white);
 }
+
+@media screen and (max-width: 1200px){
+    footer p {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 900px){
+    footer p {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 600px){
+    footer p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 400px){
+    footer p {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 250px){
+    footer p {
+        font-size: 9px;
+    }
+}

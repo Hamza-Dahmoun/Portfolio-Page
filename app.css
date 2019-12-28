@@ -433,6 +433,24 @@ html, body {
     cursor: pointer;
     transition-duration: 0.5s;
 }
+@media screen and (max-width: 600px){
+    #projects #btn-container #load-more-btn {
+        padding: 9px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 400px){
+    #projects #btn-container #load-more-btn {
+        padding: 9px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 250px){
+    #projects #btn-container #load-more-btn {
+        padding: 7px;
+        font-size: 14px;
+    }
+}
 
 #projects #btn-container #load-more-btn:hover {
     background-color: var(--white);

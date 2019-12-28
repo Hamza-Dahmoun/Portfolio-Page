@@ -303,7 +303,10 @@ html, body {
         font-size: 12px;
     }
 }
-@media screen and (max-width: 300px){
+@media screen and (max-width: 200px){
+    #my-technologies h2 {
+        font-size: 20px;
+    }
     #my-technologies div i {
         font-size: 50px;
     }    

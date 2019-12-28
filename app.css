@@ -538,6 +538,7 @@ html, body {
     }
 }
 
+
 #contacts {
     width: 100%;
     margin-left: auto;
@@ -565,7 +566,26 @@ html, body {
     color: var(--cool-gray);
     letter-spacing: 2px;
 }
-
+@media screen and (max-width: 600px){
+    #contacts h2{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 400px){
+    #contacts h2{
+        font-size: 27px;
+    }
+}
+@media screen and (max-width: 300px){
+    #contacts h2{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 200px){
+    #contacts h2{
+        font-size: 20px;
+    }
+}
 #contacts p strong {
     color: #555;
 }
@@ -599,6 +619,8 @@ html, body {
     background-color: var(--white);
     transition-duration: 0.5s;
 }
+
+
 
 footer {
     text-align: center;

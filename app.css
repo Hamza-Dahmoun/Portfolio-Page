@@ -338,10 +338,34 @@ html, body {
     color: white;
     padding-top: 4%;
     padding-bottom: 4%;
+    padding-left:2%;padding-right:2%;
     letter-spacing: 3px;
     font-size: 36px;
 }
-
+@media screen and (max-width: 600px){
+    #projects h2 {
+        letter-spacing: 3px;
+        font-size: 30px;
+    }   
+}
+@media screen and (max-width: 400px){
+    #projects h2 {
+        letter-spacing: 3px;
+        font-size: 27px;
+    }   
+}
+@media screen and (max-width: 300px){
+    #projects h2 {
+        letter-spacing: 3px;
+        font-size: 22px;
+    }   
+}
+@media screen and (max-width: 200px){
+    #projects h2 {
+        letter-spacing: 3px;
+        font-size: 20px;
+    }   
+}
 .project-tile {
     width: 320px;
     max-height: 480px;

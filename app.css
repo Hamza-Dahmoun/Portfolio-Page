@@ -375,7 +375,7 @@ html, body {
     transition-duration: 0.5s;
     margin: 3%;
     text-decoration: none;
-    border: 1px solid #efefef;
+    border: 1px solid #aaa;
 }
 /*
 @media screen and (max-width: 1000px){
@@ -417,10 +417,8 @@ html, body {
     width: 100%;
     margin: auto;
     text-align: center;
-    height: /*50px*/8%
+    height: 8%
     ;
-    /*line-height: 50px;*/
-    /*align-self:center;;*/
     color: #555;
     font-size: 1.1em;/*22px*/;
     letter-spacing: 3px;
@@ -437,8 +435,8 @@ html, body {
     height: 80%;
     margin: 0%;
     padding: 0%;
-    border-bottom: 1px solid #efefef;
-    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #aaa;
+    border-top: 1px solid #aaa;
 }
 
 .project-tile .project-picture img {
@@ -450,6 +448,7 @@ html, body {
 }
 
 .project-tile .technologies-in-project {
+    height:8%;
     width: 99%;
     margin-left: auto;
     margin-right: auto;

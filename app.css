@@ -426,7 +426,9 @@ html, body {
     letter-spacing: 3px;
 
 }
-
+.project-tile .project-name-container p {
+    align-self:center;
+}
 
 .project-tile .project-picture {
     width: 100%;

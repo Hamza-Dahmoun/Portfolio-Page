@@ -370,12 +370,14 @@ html, body {
     width: 320px;
     max-height: 480px;
     min-height: 340px;
-    margin: 20px;
+    /*margin: 20px;*/
     cursor: pointer;
     transition-duration: 0.5s;
     margin: 3%;
     text-decoration: none;
     border: 1px solid #aaa;
+    background-color:red;
+    padding-top:0%;
 }
 /*
 @media screen and (max-width: 1000px){
@@ -415,7 +417,7 @@ html, body {
 
 .project-tile .project-name-container {
     width: 100%;
-    margin: auto;
+    margin: 0%;
     text-align: center;
     height: 8%
     ;
@@ -426,7 +428,7 @@ html, body {
     transition-duration: 0.5s;
 }
 .project-tile .project-name-container p {
-    align-self:center;
+    height:100%;align-self:center;
 }
 
 .project-tile .project-picture {
@@ -448,9 +450,9 @@ html, body {
     margin: 0%;
 }
 
-.project-tile .technologies-in-project {
+.project-tile .technologies-in-project-container {
     height:8%;
-    width: 99%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--cool-gray)/*#555*/;
@@ -459,16 +461,16 @@ html, body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    transition-duration: 0.5s;
 }
 
-.project-tile .technologies-in-project p {
+.project-tile .technologies-in-project-container p {
     font-size: 15px;
     align-self: center;
-    /*center p tags vertically inside .technologies-in-project*/
+    margin:2px;
+    /*center p tags vertically inside .technologies-in-project-container*/
 }
 
-.project-tile .technologies-in-project .project-type {
+.project-tile .technologies-in-project-container .project-type {
     font-size: 12px;
     align-self: center;
 }

@@ -463,16 +463,19 @@ html, body {
     justify-content: space-between;
 }
 
-.project-tile .technologies-in-project-container p {
+.project-tile .technologies-in-project-container .technologies-in-project {
     font-size: 15px;
     align-self: center;
-    margin:2px;
+    margin-left:3px;
+    height:20px;
     /*center p tags vertically inside .technologies-in-project-container*/
 }
 
 .project-tile .technologies-in-project-container .project-type {
     font-size: 12px;
     align-self: center;
+    margin-right:3px;
+    height:20px;
 }
 
 #projects #btn-container {

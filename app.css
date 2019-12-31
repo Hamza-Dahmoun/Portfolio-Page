@@ -71,7 +71,8 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    margin-top:7%;margin-bottom:7%;
+    margin-top: 7%;
+    margin-bottom: 7%;
 }
 
 #welcome-section #introduction img {
@@ -214,7 +215,8 @@ html, body {
 }
 
 #my-technologies {
-    color: var(--cool-gray)/*#555*/;
+    color: var(--cool-gray)/*#555*/
+    ;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -254,24 +256,26 @@ html, body {
     transition-duration: 0.5s;
     color: var(--cool-gray);
 }
-@media screen and (max-width: 900px){
+
+@media screen and (max-width: 900px) {
     #my-technologies div i {
         font-size: 100px;
-    }    
+    }
     #my-technologies div p {
         font-size: 20px;
     }
 }
+
 @media screen and (max-width: 600px) {
     #my-technologies h2 {
         letter-spacing: 3px;
         font-size: 30px;
         margin-left: 4%;
         margin-right: 4%;
-    }    
+    }
     #my-technologies div i {
         font-size: 85px;
-    }    
+    }
     #my-technologies div p {
         font-size: 18px;
     }
@@ -284,7 +288,7 @@ html, body {
     }
     #my-technologies div i {
         font-size: 70px;
-    }    
+    }
     #my-technologies div p {
         font-size: 15px;
         margin: 5px;
@@ -298,18 +302,19 @@ html, body {
     }
     #my-technologies div i {
         font-size: 55px;
-    }    
+    }
     #my-technologies div p {
         font-size: 12px;
     }
 }
-@media screen and (max-width: 200px){
+
+@media screen and (max-width: 200px) {
     #my-technologies h2 {
         font-size: 20px;
     }
     #my-technologies div i {
         font-size: 50px;
-    }    
+    }
     #my-technologies div p {
         font-size: 10px;
         margin: 5px;
@@ -338,52 +343,62 @@ html, body {
     color: white;
     padding-top: 4%;
     padding-bottom: 4%;
-    padding-left:2%;padding-right:2%;
+    padding-left: 2%;
+    padding-right: 2%;
     letter-spacing: 3px;
     font-size: 36px;
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 600px) {
     #projects h2 {
         letter-spacing: 3px;
         font-size: 30px;
-    }   
+    }
 }
-@media screen and (max-width: 400px){
+
+@media screen and (max-width: 400px) {
     #projects h2 {
         letter-spacing: 3px;
         font-size: 27px;
-    }   
+    }
 }
-@media screen and (max-width: 300px){
+
+@media screen and (max-width: 300px) {
     #projects h2 {
         letter-spacing: 3px;
         font-size: 22px;
-    }   
+    }
 }
-@media screen and (max-width: 200px){
+
+@media screen and (max-width: 200px) {
     #projects h2 {
         letter-spacing: 3px;
         font-size: 20px;
-    }   
+    }
 }
+
 .project-tile {
     width: 320px;
     max-height: 480px;
-    min-height: 480px/*340px*/;
+    min-height: 480px/*340px*/
+    ;
     /*margin: 20px;*/
     cursor: pointer;
     transition-duration: 0.5s;
     margin: 3%;
     text-decoration: none;
     border: 1px solid #aaa;
-    padding-top:0%;
+    padding-top: 0%;
 }
-@media screen and (max-width: 300px){
+
+@media screen and (max-width: 300px) {
     /*add margintop and bottom to project tiles when it is a mobile and projects are one above another*/
-    .project-tile{
-        margin-top:20px; margin-bottom:20px;
+    .project-tile {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
+
 .project-tile:hover {
     transition-duration: 0.5s;
     box-shadow: 0px 0px 10px var(--cool-gray);
@@ -394,12 +409,17 @@ html, body {
     margin: 0%;
     text-align: center;
     height: 10%;
-    background-color: var(--cool-gray)/*#555*/;
-    color:var(--white);
-    font-size: 1.1em;/*22px*/;
+    background-color: var(--cool-gray)/*#555*/
+    ;
+    color: var(--white);
+    font-size: 1.1em;
+    /*22px*/
+    ;
     letter-spacing: 3px;
-    display:flex;flex-direction:column;justify-content:center;
-    transition-duration:0.6s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition-duration: 0.6s;
 }
 
 .project-tile .project-picture {
@@ -411,7 +431,7 @@ html, body {
     padding: 0%;
     border-bottom: 1px solid #aaa;
     border-top: 1px solid #aaa;
-    transition-duration:0.6s;
+    transition-duration: 0.6s;
 }
 
 .project-tile .project-picture img {
@@ -423,72 +443,89 @@ html, body {
 }
 
 .project-tile .technologies-in-project-container {
-    height:10%;
+    height: 10%;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-color: var(--cool-gray)/*#555*/;
-    color:var(--white);
+    background-color: var(--cool-gray)/*#555*/
+    ;
+    color: var(--white);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding:0px;
-    transition-duration:0.6s;
+    padding: 0px;
+    transition-duration: 0.6s;
 }
 
 .project-tile .technologies-in-project-container .technologies-in-project {
-    height:100%;
-    max-height:100%;
-    margin-top:0px;margin-bottom:0px;    
-    padding-left:3px;padding-right:3px;
-    padding-top:0px;padding-bottom:0px;
-}
-.project-tile .technologies-in-project-container .technologies-in-project p{
-    align-self:center; 
-    font-size: 13px; 
-    /*center p tags vertically inside its parent*/  
+    height: 100%;
+    max-height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
-.project-tile .technologies-in-project-container .project-type {
-    height:100%;
-    max-height:100%;
-    margin-top:0px;margin-bottom:0px;
-    padding-left:3px;padding-right:3px;   
-}
-.project-tile .technologies-in-project-container .project-type p{
+.project-tile .technologies-in-project-container .technologies-in-project p {
     align-self: center;
     font-size: 13px;
     /*center p tags vertically inside its parent*/
 }
-.project-tile .project-description-and-buttons-container{    
-    display:flex; flex-direction:column; justify-content:center;
-    transition-duration:0.5s;
+
+.project-tile .technologies-in-project-container .project-type {
+    height: 100%;
+    max-height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.project-tile .technologies-in-project-container .project-type p {
+    align-self: center;
+    font-size: 13px;
+    /*center p tags vertically inside its parent*/
+}
+
+.project-tile .project-description-and-buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition-duration: 0.5s;
     max-width: 300px;
-    height:80%; margin-left:auto; margin-right:auto;
-    text-align:center;
-    opacity:0;
-    position:absolute;
-}
-.project-tile:hover .project-description-and-buttons-container{
-    transition-duration:0.5s;
-    display:flex;flex-direction:column;
-    opacity:1;
-}
-.project-tile:hover .project-name-container{
-    transition-duration:0.4s;
-    opacity:0.1;
-}
-.project-tile:hover .project-picture{
-    transition-duration:0.4s;
-    opacity:0.1;
-}
-.project-tile:hover .technologies-in-project-container{
-    transition-duration:0.4s;
-    opacity:0.1;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    padding:10px;
 }
 
+.project-tile:hover .project-description-and-buttons-container {
+    transition-duration: 0.5s;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+}
 
+.project-tile:hover .project-name-container {
+    transition-duration: 0.4s;
+    opacity: 0.1;
+}
+
+.project-tile:hover .project-picture {
+    transition-duration: 0.4s;
+    opacity: 0.1;
+}
+
+.project-tile:hover .technologies-in-project-container {
+    transition-duration: 0.4s;
+    opacity: 0.1;
+}
 
 #projects #btn-container {
     margin-left: auto;
@@ -510,19 +547,22 @@ html, body {
     cursor: pointer;
     transition-duration: 0.5s;
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 600px) {
     #projects #btn-container #load-more-btn {
         padding: 9px;
         font-size: 18px;
     }
 }
-@media screen and (max-width: 400px){
+
+@media screen and (max-width: 400px) {
     #projects #btn-container #load-more-btn {
         padding: 9px;
         font-size: 16px;
     }
 }
-@media screen and (max-width: 250px){
+
+@media screen and (max-width: 250px) {
     #projects #btn-container #load-more-btn {
         padding: 7px;
         font-size: 14px;
@@ -636,7 +676,6 @@ html, body {
     }
 }
 
-
 #contacts {
     width: 100%;
     margin-left: auto;
@@ -664,43 +703,49 @@ html, body {
     color: var(--cool-gray);
     letter-spacing: 2px;
 }
-@media screen and (max-width: 600px){
-    #contacts h2{
+
+@media screen and (max-width: 600px) {
+    #contacts h2 {
         font-size: 30px;
     }
-    #contacts p{
+    #contacts p {
         font-size: 18px;
     }
 }
-@media screen and (max-width: 400px){
-    #contacts h2{
+
+@media screen and (max-width: 400px) {
+    #contacts h2 {
         font-size: 27px;
     }
-    #contacts p{
+    #contacts p {
         font-size: 16px;
     }
 }
-@media screen and (max-width: 300px){
-    #contacts h2{
+
+@media screen and (max-width: 300px) {
+    #contacts h2 {
         font-size: 22px;
     }
-    #contacts p{
-        font-size: 14px; 
+    #contacts p {
+        font-size: 14px;
     }
-    #contacts p strong{
-        word-break:break-all;
+    #contacts p strong {
+        word-break: break-all;
     }
 }
-@media screen and (max-width: 200px){
-    #contacts h2{
+
+@media screen and (max-width: 200px) {
+    #contacts h2 {
         font-size: 20px;
     }
-    #contacts p{
+    #contacts p {
         font-size: 12px;
     }
 }
+
 #contacts p strong {
-    color: var(--cool-gray)/*#555*/;
+    color: var(--cool-gray)/*#555*/
+    ;
 }
 
 #contacts #social-media-profiles-links-container {
@@ -726,7 +771,8 @@ html, body {
     color: var(--white);
     transition-duration: 0.5s;
 }
-@media screen and (max-width: 800px){
+
+@media screen and (max-width: 800px) {
     #contacts #social-media-profiles-links-container a {
         width: 100px;
         height: 100px;
@@ -734,7 +780,8 @@ html, body {
         font-size: 65px;
     }
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 600px) {
     #contacts #social-media-profiles-links-container a {
         margin: 10px;
         width: 90px;
@@ -743,7 +790,8 @@ html, body {
         font-size: 55px;
     }
 }
-@media screen and (max-width: 400px){
+
+@media screen and (max-width: 400px) {
     #contacts #social-media-profiles-links-container a {
         margin: 7px;
         width: 80px;
@@ -758,8 +806,6 @@ html, body {
     background-color: var(--white);
     transition-duration: 0.5s;
 }
-
-
 
 footer {
     text-align: center;
@@ -785,27 +831,31 @@ footer a {
     color: var(--white);
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
     footer p {
         font-size: 15px;
     }
 }
-@media screen and (max-width: 900px){
+
+@media screen and (max-width: 900px) {
     footer p {
         font-size: 13px;
     }
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 600px) {
     footer p {
         font-size: 12px;
     }
 }
-@media screen and (max-width: 400px){
+
+@media screen and (max-width: 400px) {
     footer p {
         font-size: 11px;
     }
 }
-@media screen and (max-width: 250px){
+
+@media screen and (max-width: 250px) {
     footer p {
         font-size: 9px;
     }

@@ -504,6 +504,10 @@ html, body {
     position: absolute;
     padding:10px;
 }
+.project-tile .project-description-and-buttons-container a{
+    border:2px solid var(--cool-gray);
+    padding:8px;
+}
 
 .project-tile:hover .project-description-and-buttons-container {
     transition-duration: 0.5s;

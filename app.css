@@ -369,7 +369,7 @@ html, body {
 .project-tile {
     width: 320px;
     max-height: 480px;
-    min-height: 340px;
+    min-height: 480px/*340px*/;
     /*margin: 20px;*/
     cursor: pointer;
     transition-duration: 0.5s;
@@ -378,37 +378,12 @@ html, body {
     border: 1px solid #aaa;
     padding-top:0%;
 }
-/*
-@media screen and (max-width: 1000px){
-    .project-tile {
-        width: 300px;
-        max-height: 460px;
-        min-height: 460px;
+@media screen and (max-width: 300px){
+    /*add margintop and bottom to project tiles when it is a mobile and projects are one above another*/
+    .project-tile{
+        margin-top:20px; margin-bottom:20px;
     }
 }
-@media screen and (max-width: 700px){
-    .project-tile {
-        width: 250px;
-        max-height: 410px;
-        min-height: 410px;
-    }
-}
-@media screen and (max-width: 600px){
-    .project-tile {
-        width: 200px;
-        max-height: 370px;
-        min-height: 370px;
-    }
-}
-@media screen and (max-width: 500px){
-    #projects{
-        display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items:center;
-    }   
-}*/
 .project-tile:hover {
     transition-duration: 0.5s;
     box-shadow: 0px 0px 10px var(--cool-gray);
@@ -489,7 +464,7 @@ html, body {
 .project-tile .project-description-and-buttons-container{    
     display:flex; flex-direction:column; justify-content:center;
     transition-duration:0.5s;
-    width: 320px;
+    max-width: 300px;
     height:80%; margin-left:auto; margin-right:auto;
     text-align:center;
     opacity:0;
